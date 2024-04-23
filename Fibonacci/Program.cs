@@ -6,7 +6,7 @@ do
 {
     Console.WriteLine("\"Digite um número positivo e valido de elementos");
     numero = int.Parse(Console.ReadLine());
-} while (numero < 1);
+} while (numero < 0);
 
 int[] fibonacci = new int[numero];
 
