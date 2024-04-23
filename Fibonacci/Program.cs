@@ -11,7 +11,7 @@ do
 int[] fibonacci = new int[numero];
 
 Console.WriteLine("Sequencia Fibonacci:");
-for (int i = 2; i < numero; i++)
+for (int i = 0; i < numero; i++)
 {
     aux = n1 + n2;
     n1 = n2;
